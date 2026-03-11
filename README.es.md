@@ -141,8 +141,6 @@ La cámara se posicionará **automáticamente** según el tamaño del modelo usa
 
 <div align="center">
 
-Hecho con 💚 y [Three.js](https://threejs.org/)
-
 Hecho por **Piña** 🍍
 
 </div>
