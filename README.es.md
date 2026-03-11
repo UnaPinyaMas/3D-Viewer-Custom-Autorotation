@@ -7,6 +7,9 @@
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
 <img src="https://img.shields.io/badge/GLTF-3D%20Model-00ff88?style=for-the-badge"/>
+<a href="https://unapinyamas.github.io/3D-Viewer-Custom-Autorotation/">
+  <img src="https://img.shields.io/badge/🌐 Demo en vivo-Ver-00c896?style=for-the-badge" alt="Demo en vivo"/>
+</a>
 
 <br/>
 
