@@ -141,9 +141,8 @@ The camera will **automatically** position itself based on the model's bounding 
 
 <div align="center">
 
-Made with 💚 and [Three.js](https://threejs.org/)
-
 Made by **Piña** 🍍
 
 </div>
+
 
