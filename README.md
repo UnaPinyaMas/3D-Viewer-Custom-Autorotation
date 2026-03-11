@@ -10,68 +10,72 @@
 
 <br/>
 
-> Visor 3D interactivo en el navegador con controles de escena personalizables en tiempo real. Carga cualquier modelo **GLTF/GLB** y explóralo con rotación automática, iluminación dinámica y mucho más.
+🇪🇸 [Leer en Español](README.es.md)
+
+<br/>
+
+> Interactive 3D viewer in the browser with real-time customizable scene controls. Load any **GLTF/GLB** model and explore it with automatic rotation, dynamic lighting, and more.
 
 </div>
 
 ---
 
-## ✨ Características
+## ✨ Features
 
-- 🎮 **Modelo 3D interactivo** — Carga y renderiza cualquier modelo en formato GLTF/GLB
-- 🔄 **Autorotación personalizable** — Activa/desactiva la rotación automática y ajusta su velocidad
-- 🖱️ **OrbitControls** — Gira, haz zoom y desplaza el modelo libremente con el ratón
-- 💡 **Iluminación dinámica** — Controla el color e intensidad de la luz ambiental y direccional
-- 🎨 **Fondo personalizable** — Cambia el color del fondo de la escena en tiempo real
-- 🔍 **Control de zoom** — Ajusta el nivel de zoom mediante un slider
-- 📱 **Responsive** — Se adapta automáticamente al tamaño de la ventana
-- 🍔 **Menú lateral animado** — Panel de opciones con hamburger menu elegante
+- 🎮 **Interactive 3D model** — Load and render any GLTF/GLB model
+- 🔄 **Customizable autorotation** — Toggle automatic rotation and adjust its speed
+- 🖱️ **OrbitControls** — Rotate, zoom and pan the model freely with your mouse
+- 💡 **Dynamic lighting** — Control color and intensity of ambient and directional lights
+- 🎨 **Custom background** — Change the scene background color in real time
+- 🔍 **Zoom control** — Adjust zoom level with a slider
+- 📱 **Responsive** — Automatically adapts to any window size
+- 🍔 **Animated side menu** — Elegant hamburger menu panel with all options
 
 ---
 
-## 🗂️ Estructura del Proyecto
+## 🗂️ Project Structure
 
 ```
 3D-Viewer-Custom-Autorotation/
 │
-├── 📄 index.html        # Estructura HTML + menú de opciones de escena
-├── 📜 script.js         # Lógica Three.js: escena, cámara, luces y controles
-├── 🎨 styles.css        # Estilos del visor y del menú lateral
+├── 📄 index.html        # Main HTML structure + scene options menu
+├── 📜 script.js         # Three.js logic: scene, camera, lights & controls
+├── 🎨 styles.css        # Viewer and side menu styles
 └── 📁 assets/
-    └── (modelos GLTF/GLB aquí)
+    └── (GLTF/GLB models go here)
 ```
 
 ---
 
-## 🚀 Instalación y Uso
+## 🚀 Installation & Usage
 
-### 1. Clona el repositorio
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/UnaPinyaMas/3D-Viewer-Custom-Autorotation.git
 cd 3D-Viewer-Custom-Autorotation
 ```
 
-### 2. Lanza un servidor local
+### 2. Start a local server
 
-> ⚠️ Los modelos GLTF requieren un servidor HTTP. No abras el `index.html` directamente desde el explorador de archivos.
+> ⚠️ GLTF models require an HTTP server. Do **not** open `index.html` directly from the file explorer.
 
-**Con VS Code (Live Server):**
+**With VS Code (Live Server):**
 ```
-Instala la extensión "Live Server" → clic en "Go Live"
+Install the "Live Server" extension → click "Go Live"
 ```
 
-**Con Python:**
+**With Python:**
 ```bash
 python -m http.server 8080
 ```
 
-**Con Node.js:**
+**With Node.js:**
 ```bash
 npx serve .
 ```
 
-### 3. Abre en el navegador
+### 3. Open in your browser
 
 ```
 http://localhost:8080
@@ -79,64 +83,64 @@ http://localhost:8080
 
 ---
 
-## 🎛️ Panel de Controles
+## 🎛️ Controls Panel
 
-Haz clic en el **botón hamburguesa** (☰) para abrir el panel lateral:
+Click the **hamburger button** (☰) to open the side panel:
 
-| Control | Descripción |
+| Control | Description |
 |---|---|
-| 🎨 **Color de fondo** | Cambia el color del fondo de la escena |
-| 💡 **Luz Ambiental** | Ajusta color e intensidad de la iluminación global |
-| 🔦 **Luz Direccional** | Ajusta color e intensidad de la luz direccional |
-| 🔍 **Zoom** | Controla el nivel de zoom de la cámara |
-| 🔄 **Autorotación** | Activa o desactiva la rotación automática |
-| ⚡ **Velocidad de Rotación** | Ajusta la velocidad del giro automático |
+| 🎨 **Background color** | Change the scene background color |
+| 💡 **Ambient Light** | Adjust color and intensity of global lighting |
+| 🔦 **Directional Light** | Adjust color and intensity of directional light |
+| 🔍 **Zoom** | Control the camera zoom level |
+| 🔄 **Auto Rotation** | Toggle automatic rotation on/off |
+| ⚡ **Rotation Speed** | Adjust the speed of the automatic rotation |
 
 ---
 
-## 🛠️ Tecnologías Utilizadas
+## 🛠️ Tech Stack
 
-| Tecnología | Versión | Uso |
+| Technology | Version | Purpose |
 |---|---|---|
-| [Three.js](https://threejs.org/) | v0.146.0 | Motor de renderizado 3D WebGL |
-| **GLTFLoader** | v0.146.0 | Carga de modelos 3D en formato `.gltf` / `.glb` |
-| **OrbitControls** | v0.146.0 | Control de cámara con el ratón |
-| **HTML5 / CSS3** | — | Interfaz y estilos |
-| **JavaScript ES6** | — | Lógica de la aplicación |
+| [Three.js](https://threejs.org/) | v0.146.0 | WebGL 3D rendering engine |
+| **GLTFLoader** | v0.146.0 | Load 3D models in `.gltf` / `.glb` format |
+| **OrbitControls** | v0.146.0 | Mouse-based camera control |
+| **HTML5 / CSS3** | — | UI and styling |
+| **JavaScript ES6** | — | Application logic |
 
 ---
 
-## 🔄 Usar tu propio modelo 3D
+## 🔄 Use Your Own 3D Model
 
-Pon tu modelo GLTF/GLB dentro de la carpeta `assets/` y actualiza la ruta en `script.js`:
+Place your GLTF/GLB model inside the `assets/` folder and update the path in `script.js`:
 
 ```javascript
 loader.load(
-  'assets/tu-modelo/scene.gltf', // 👈 Cambia esta ruta
+  'assets/your-model/scene.gltf', // 👈 Change this path
   function (gltf) { ... }
 );
 ```
 
-La cámara se posicionará **automáticamente** según el tamaño del modelo usando su bounding box.
+The camera will **automatically** position itself based on the model's bounding box.
 
 ---
 
-## ⚙️ Cómo Funciona Internamente
+## ⚙️ How It Works
 
 ```
-1. Se inicializa la escena Three.js con WebGLRenderer (antialiasing activado)
-2. Se añaden luces: ambiental + direccional, ambas configurables
-3. GLTFLoader carga el modelo 3D desde la ruta especificada
-4. La cámara se posiciona automáticamente mediante BoundingBox del modelo
-5. OrbitControls permite interactuar (rotar, zoom, pan) con damping suavizado
-6. El bucle de animación (requestAnimationFrame) actualiza y renderiza cada frame
-7. El menú lateral modifica la escena en tiempo real mediante event listeners
+1. Three.js scene initializes with WebGLRenderer (antialiasing enabled)
+2. Lights are added: ambient + directional, both fully configurable
+3. GLTFLoader loads the 3D model from the specified path
+4. Camera auto-positions using the model's BoundingBox
+5. OrbitControls enables interaction (rotate, zoom, pan) with smooth damping
+6. Animation loop (requestAnimationFrame) updates and renders every frame
+7. Side menu event listeners modify the scene in real time
 ```
 
 ---
 
 <div align="center">
 
-Hecho con 💚 y [Three.js](https://threejs.org/)
+Made with 💚 and [Three.js](https://threejs.org/)
 
 </div>
