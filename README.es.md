@@ -23,6 +23,17 @@
 
 ---
 
+## 🎬 Demo
+
+<div align="center">
+
+<img src="assets/docs/download-_2_.gif" alt="Demo rotación modelo 3D" width="49%"/>
+<img src="assets/docs/download-_1_.gif" alt="Demo menú de controles" width="49%"/>
+
+</div>
+
+---
+
 ## ✨ Características
 
 - 🎮 **Modelo 3D interactivo** — Carga y renderiza cualquier modelo en formato GLTF/GLB
