@@ -17,7 +17,22 @@
 
 <br/>
 
-> Interactive 3D viewer in the browser with real-time customizable scene controls. Load any **GLTF/GLB** model and explore it with automatic rotation, dynamic lighting, and more.
+> Interactive 3D viewer in the browser with real-time customizable scene controls. Load any **GLTF/GLB** model and explore it with automatic
+>
+> </div>
+
+---
+
+## 🎬 Demo
+
+<div align="center">
+
+<img src="assets/docs/download-_2_.gif" alt="3D model rotation demo" width="49%"/>
+<img src="assets/docs/download-_1_.gif" alt="Scene controls menu demo" width="49%"/>
+
+</div>
+
+---rotation, dynamic lighting, and more.
 
 </div>
 
@@ -147,6 +162,7 @@ The camera will **automatically** position itself based on the model's bounding 
 Made by **Piña** 🍍
 
 </div>
+
 
 
 
